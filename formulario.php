@@ -146,21 +146,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="form-group">
         <label for="nome">Nome completo</label>
         <div class="input-icon">
-          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+          <input type="text" id="nome" name="nome" value="<?= htmlspecialchars($nome) ?>" placeholder="Digite seu nome" required>
         </div>
       </div>
 
       <div class="form-group">
         <label for="email">Email</label>
         <div class="input-icon">
-          <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          <input type="email" id="email" name="email" value="<?= htmlspecialchars($email) ?>" placeholder="seu@email.com" required>
         </div>
       </div>
 
       <div class="form-group">
         <label for="idade">Idade</label>
         <div class="input-icon">
-          <input type="number" id="idade" name ="idade" placeholder="Sua idade" min="1" max="120" required>
+          <input type="number" id="idade" name ="idade" value="<?= htmlspecialchars($idade) ?>" placeholder="Sua idade" min="1" max="120" required>
         </div>
       </div>
 
