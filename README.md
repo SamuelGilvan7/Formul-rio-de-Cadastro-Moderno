@@ -23,5 +23,4 @@ Um formulário simples, bonito e seguro para cadastro de usuários com **valida�
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/SEU_USUARIO/nome-do-repositorio.git
-   cd nome-do-repositorio
+   https://github.com/SamuelGilvan7/Formul-rio-de-Cadastro-Moderno.git
